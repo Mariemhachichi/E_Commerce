@@ -1,0 +1,100 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*****nav et top bar*****/
+.container{
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header.topbar{
+    padding: 0.75rem 0;
+    font-size: 15px;
+}
+header.topbar .gauche > div a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+header.topbar .gauche a{
+    margin-right: 0.6rem;
+}
+header.topbar .gauche a:hover{
+    color: red;
+}
+header.topbar .gauche .divider{
+    padding: 0 1rem;
+}
+header.topbar .droite .divider{
+    padding: 0 1rem;
+}
+header.topbar .droite > div a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+header.topbar .droite > div a:hover{
+    color: red;
+}
+
+.flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.items-center{
+    align-items: center;  
+}  
+
+.gauche{
+    float:left;
+}
+.justify-center{
+    justify-content: center;
+}
+ nav .navbar a{
+     text-decoration: none;
+     color: black;
+     font-family: sans-serif;
+     font-size: 1rem;
+     padding: 2rem 1.5rem;
+ }
+ nav .navbar a:hover{
+     color:red;
+ }
+ header {
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    overflow: hidden;
+    background-color:white;
+  }
+  nav {
+    position: fixed;
+    top: 7%;
+    width: 100%; 
+    overflow: hidden;
+    background-color:white;
+  }
+  /*******page contact partie1********/
+ .background{
+    background-image: url('images/contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 14rem;
+    margin-top: 5rem;
+ }
+.background h1{
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
